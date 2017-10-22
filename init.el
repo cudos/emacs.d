@@ -24,6 +24,9 @@
 (add-to-list 'load-path settings-dir)
 (add-to-list 'load-path site-lisp-dir)
 
+;; Set up keybindins early
+(require 'keybindings)
+
 ;; Set up appearance early
 (require 'appearance)
 
