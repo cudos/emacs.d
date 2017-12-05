@@ -1,0 +1,1 @@
+("~/git/.emacs.d/" "~/git/kubernetes-setup/" "~/git/aka-avendoo-qk/" "~/git/welcometoclojurebridge/" "~/git/trender/" "~/git/notes/" "~/.emacs.d/")

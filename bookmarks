@@ -1,0 +1,38 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("refile.org"
+ (filename . "~/Dropbox/org/refile.org")
+ (front-context-string . "\n* Tasks\n** DONE")
+ (rear-context-string)
+ (position . 1))
+("todo.org"
+ (filename . "~/Dropbox/org/todo.org")
+ (front-context-string . "\n* TODO Somethin")
+ (rear-context-string)
+ (position . 1))
+("Helm-find-files: ~/Dropbox/org/"
+ (filename . "/home/jens/Dropbox/org/")
+ (presel . "/home/jens/Dropbox/org/.")
+ (handler . helm-ff-bookmark-jump))
+("Helm-find-files: ~/.emacs.d/settings/"
+ (filename . "/home/jens/.emacs.d/settings/")
+ (presel . "/home/jens/.emacs.d/settings/tools.el")
+ (handler . helm-ff-bookmark-jump))
+("init.el"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . ";; Turn off mous")
+ (rear-context-string)
+ (position . 1))
+("org-refile-last-stored"
+ (filename . "~/gtd/gtd.org")
+ (front-context-string . "** TODO Plan tri")
+ (rear-context-string)
+ (position . 13))
+("org-capture-last-stored"
+ (filename . "~/Dropbox/org/refile.org")
+ (front-context-string . "** Make offline ")
+ (rear-context-string . "		       :NOTE:\n")
+ (position . 1499))
+)
