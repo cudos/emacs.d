@@ -6,7 +6,3 @@
 (add-hook 'clojure-mode-hook 'paredit-mode)
 (add-hook 'clojurescript-mode-hook 'paredit-mode)
 (setq cider-repl-pop-to-buffer-on-connect nil)
-(require 'highlight-parentheses)
-(add-hook 'clojure-mode-hook
-	  (lambda ()
-	        (highlight-parentheses-mode t)))
