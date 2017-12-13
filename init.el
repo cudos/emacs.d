@@ -64,7 +64,6 @@
      cider
      paredit
      auto-complete
-     highlight-parentheses
      markdown-mode
      helm
      projectile
