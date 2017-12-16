@@ -1,1 +1,1 @@
-("~/git/cudos/emacs.d/" "~/" "~/git/cudos/readme/" "~/git/cudos/trender/" "~/git/cudos/pe-clojure/" "~/git/cudos/dotfiles/")
+("~/git/cudos/readme/" "~/git/cudos/dotfiles/" "~/git/cudos/emacs.d/" "~/" "~/git/cudos/trender/" "~/git/cudos/pe-clojure/")
