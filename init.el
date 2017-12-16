@@ -5,6 +5,9 @@
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
+;; Start fullscreen
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
 ;; Install packages
 (require 'package)
 
