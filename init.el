@@ -49,6 +49,9 @@
 
 (install-packages)
 
+;; Show column numbers
+(setq column-number-mode t)
+
 ;; Remove trailing whitespaces
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
