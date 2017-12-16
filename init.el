@@ -1,12 +1,17 @@
 ;; .emacs.d/init.el - the entry point to my emacs config
 
+;; Start fullscreen
+(defun fullscreen ()
+  (interactive)
+  (x-send-client-message nil 0 nil "_NET_WM_STATE" 32
+			 '(2 "_NET_WM_STATE_FULLSCREEN" 0)))
+
+(fullscreen)
+
 ;; Turn off menu bar/tool bar scroll bar early
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
-
-;; Start fullscreen
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; Install packages
 (require 'package)
