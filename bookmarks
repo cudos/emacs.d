@@ -2,14 +2,14 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("refile.org"
- (filename . "~/Dropbox/org/refile.org")
- (front-context-string . "\n* Tasks\n** DONE")
+(("emacs.md"
+ (filename . "~/git/cudos/readme/emacs.md")
+ (front-context-string . "# emacs.md - A S")
  (rear-context-string)
  (position . 1))
-("todo.org"
- (filename . "~/Dropbox/org/todo.org")
- (front-context-string . "\n* TODO Somethin")
+("refile.org"
+ (filename . "~/Dropbox/org/refile.org")
+ (front-context-string . "\n* Tasks\n** DONE")
  (rear-context-string)
  (position . 1))
 ("Helm-find-files: ~/Dropbox/org/"
@@ -26,13 +26,13 @@
  (rear-context-string)
  (position . 1))
 ("org-refile-last-stored"
- (filename . "~/gtd/gtd.org")
- (front-context-string . "** TODO Plan tri")
- (rear-context-string)
- (position . 13))
+ (filename . "~/Dropbox/org/gtd.org")
+ (front-context-string . "** TODO Benutzer")
+ (rear-context-string . "en sie genutzt?\n")
+ (position . 1566))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/org/refile.org")
- (front-context-string . "** Make offline ")
- (rear-context-string . "		       :NOTE:\n")
- (position . 1499))
+ (front-context-string . "** TODO Debug pr")
+ (rear-context-string . " \\n: t\n\n* Tasks\n")
+ (position . 27))
 )
