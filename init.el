@@ -54,6 +54,9 @@
 
 (install-packages)
 
+;; Use whitespace package
+(require 'whitespace)
+
 ;; Show column numbers
 (setq column-number-mode t)
 
