@@ -60,8 +60,8 @@
 ;; Show column numbers
 (setq column-number-mode t)
 
-;; Remove trailing whitespaces
-(add-hook 'before-save-hook 'delete-trailing-whitespace)
+;; ;; Remove trailing whitespaces
+;; (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; Display matching parenthesis
 (require 'paren)
