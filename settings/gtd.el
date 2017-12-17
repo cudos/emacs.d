@@ -29,8 +29,9 @@
 	 "* %? :NOTE:\n" :prepend t))))
 
 
-;; Set todo keywords
-(setq org-todo-keywords '((sequence "TODO(t)" "WAITING(w)" "|" "DONE(d)" "CANCELLED(c)")))
+;; Set TODO keywords
+(setq org-todo-keywords
+      '((sequence "TODO(t)" "WAITING(w)" "NEXT(n)" "|" "DONE(d)" "CANCELLED(c)")))
 
 
 ;; fontify code in code blocks
