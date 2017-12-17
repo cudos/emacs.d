@@ -44,3 +44,10 @@
 
 ;; Add keybinding for org-agenda
 (global-set-key "\C-ca" 'org-agenda)
+
+
+;; Some agenda custom commands
+(setq org-agenda-custom-commands
+      '(("w" todo "WAITING" nil)
+	("n" todo "NEXT" nil)
+	("d" "Agenda + Next Actions" ((agenda) (todo "NEXT")))))
