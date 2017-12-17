@@ -6,24 +6,26 @@
 
 (provide 'gtd)
 
-
 ;; Add all org-mode GTD files to agenda
-(setq org-agenda-files '("~/Dropbox/org/"))
+(setq org-agenda-files '("~/org/"))
 
 
-(setq org-default-notes-file "~/Dropbox/org/refile.org")
+;; Set default notes file
+(setq org-default-notes-file "~/org/refile.org")
 
 
 ;; Set up refile targets
-(setq org-refile-targets '(("~/Dropbox/org/gtd.org" :maxlevel . 3)
-                           ("~/Dropbox/org/someday.org" :level . 1)))
+(setq org-refile-targets '(
+			   ("~/org/personal.org" :maxlevel . 3)
+			   ("~/org/work.org" :maxlevel . 3)
+                           ("~/org/someday.org" :level . 1)))
 
 
 ;; Setup capture templates
-(setq org-capture-templates (quote 
-       (("t" "todo" entry (file+headline "~/Dropbox/org/refile.org" "Tasks")
+(setq org-capture-templates (quote
+       (("t" "todo" entry (file+headline "~/org/refile.org" "Tasks")
 	 "* TODO %i%?\n\n\n" :prepend t)
-       ("n" "note" entry (file+headline "~/Dropbox/org/refile.org" "Notes")
+       ("n" "note" entry (file+headline "~/org/refile.org" "Notes")
 	 "* %? :NOTE:\n" :prepend t))))
 
 
