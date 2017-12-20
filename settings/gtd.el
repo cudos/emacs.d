@@ -51,3 +51,7 @@
       '(("w" todo "WAITING" nil)
 	("n" todo "NEXT" nil)
 	("d" "Agenda + Next Actions" ((agenda) (todo "NEXT")))))
+
+
+;; Log when a a certain TODO item was finished
+(setq org-log-done 'time)
