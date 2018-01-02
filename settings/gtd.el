@@ -16,10 +16,11 @@
 
 ;; Set up refile targets
 (setq org-refile-targets '(
-			   ("~/org/personal.org" :maxlevel . 3)
 			   ("~/org/work.org" :maxlevel . 3)
+			   ("~/org/tech.org" :maxlevel . 3)
+			   ("~/org/finance.org" :maxlevel . 3)
+			   ("~/org/other.org" :maxlevel . 3)
                            ("~/org/someday.org" :level . 1)))
-
 
 ;; Setup capture templates
 (setq org-capture-templates (quote
