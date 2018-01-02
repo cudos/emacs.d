@@ -6,6 +6,9 @@
   (x-send-client-message nil 0 nil "_NET_WM_STATE" 32
 			 '(2 "_NET_WM_STATE_FULLSCREEN" 0)))
 
+;; Set font size to 10
+(set-face-attribute 'default nil :height 100)
+
 (fullscreen)
 
 ;; Turn off menu bar/tool bar scroll bar early
