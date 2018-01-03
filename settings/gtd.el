@@ -25,9 +25,7 @@
 ;; Setup capture templates
 (setq org-capture-templates (quote
        (("t" "todo" entry (file+headline "~/org/refile.org" "Tasks")
-	 "* TODO %i%?\n\n\n" :prepend t)
-       ("n" "note" entry (file+headline "~/org/refile.org" "Notes")
-	 "* %? :NOTE:\n" :prepend t))))
+	 "* TODO %i%?\n\n\n" :prepend t))))
 
 
 ;; Set TODO keywords
